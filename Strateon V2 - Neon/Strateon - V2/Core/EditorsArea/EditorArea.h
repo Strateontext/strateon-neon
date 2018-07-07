@@ -12,7 +12,6 @@ public:
         EditorArea();
 
 private:
-        QMdiArea *m_EditorArea;
 
 signals:
 

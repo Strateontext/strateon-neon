@@ -6,7 +6,6 @@ namespace Strateon {
 
 EditorArea::EditorArea(){
 	
-	m_EditorArea = new QMdiArea;
 	
     }
 }

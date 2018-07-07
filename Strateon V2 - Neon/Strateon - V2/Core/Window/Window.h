@@ -17,10 +17,10 @@ public:
 
 
 private:
-    QToolBar *m_ToolBar;
-    QStatusBar *m_StatusBar;
-    QMenuBar *m_MenuBar;
+    ToolBar *m_ToolBar;
+    StatusBar *m_StatusBar;
     EditorArea *m_EditorArea;
+    QMenuBar *m_MenuBar;
 
     };
 }

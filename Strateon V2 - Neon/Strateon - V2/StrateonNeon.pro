@@ -1,13 +1,14 @@
 QT += widgets
+QT += gui
 
 SOURCES += \
+    Main.cpp\
     Core/Application/Application.cpp\
     Core/EditorsArea/EditorArea.cpp\
     Core/MenuBar/MenuBar.cpp\
     Core/StatusBar/StatusBar.cpp\
     Core/ToolBar/ToolBar.cpp\
     Core/Window/Window.cpp\
-    Main.cpp\
 
 HEADERS += \
     Core/Application/Application.h\
