@@ -12,6 +12,7 @@ public:
         MenuBar();
 
 private:
+    QMenu* m_menuEdit{};
 
 signals:
 

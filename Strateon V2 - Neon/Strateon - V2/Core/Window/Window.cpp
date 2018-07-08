@@ -5,11 +5,19 @@
 namespace Strateon {
 
 Window::Window(){
-	setCentralWidget(m_EditorArea);
-    m_EditorArea = new EditorArea;
-    m_ToolBar = new ToolBar;
-    m_StatusBar = new StatusBar;
-    m_MenuBar = new MenuBar;
+
+    m_EditorArea = new EditorArea();
+    setCentralWidget(m_EditorArea);
+
+    m_StatusBar = new StatusBar();
+    setStatusBar(m_StatusBar);
+
+    m_MenuBar = new MenuBar();
+    setMenuBar(m_MenuBar);
+
+    m_ToolBar = new ToolBar();
+    addToolBar(m_ToolBar);
+
     }
 }
 

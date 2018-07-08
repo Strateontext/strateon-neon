@@ -6,6 +6,6 @@ namespace Strateon {
 
 StatusBar::StatusBar(){
 
-
+    this->showMessage(tr("Ready"));
     }
 }

@@ -5,7 +5,8 @@
 namespace Strateon {
 
 EditorArea::EditorArea(){
-	
-	
+
+
+
     }
 }

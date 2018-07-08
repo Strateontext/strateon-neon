@@ -17,11 +17,11 @@ public:
 
 
 private:
-    ToolBar *m_ToolBar;
+
     StatusBar *m_StatusBar;
     EditorArea *m_EditorArea;
-    QMenuBar *m_MenuBar;
-
+    MenuBar *m_MenuBar;
+    ToolBar *m_ToolBar;
     };
 }
 #endif

@@ -10,10 +10,10 @@ namespace Strateon {
 class Application: public QApplication {
 
 public:
-    Application(int& argc, char** argv);
+    Application(int argc, char** argv);
 
 private:
-    Window*m_windows;
+    Window *m_windows;
 
     };
 }
