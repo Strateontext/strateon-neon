@@ -1,0 +1,6 @@
+install:
+  - set QTDIR=C:\Qt\5.11.0\msvc2017_64
+  - set PATH=%PATH%;%QTDIR%\bin;C:\msvc\bin
+build_script:
+  - qmake StrateonNeon.pro
+  - msvc-nmake
