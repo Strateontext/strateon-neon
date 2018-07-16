@@ -12,3 +12,19 @@ Application::Application(int argc, char** argv) : QApplication(argc, argv){
 
     }
 }
+
+QString readFile(const QString& filename)
+{
+    QFile file{filename};
+
+    if (!filename.isEmpty() && file.open(QFile::ReadOnly)) {
+        const QByteArray array{file.readAll()};
+
+        file.close();
+
+        return QString::fromUtf8(array);
+    }
+
+    return QString();
+
+}

@@ -3,6 +3,7 @@
 
 #include <QApplication>
 #include <QtWidgets>
+#include "../../Edition/Editor/Editor.h"
 
 namespace Strateon {
 
@@ -12,6 +13,7 @@ public:
         EditorArea();
 
 private:
+        Editor *m_textzone;
 
 signals:
 

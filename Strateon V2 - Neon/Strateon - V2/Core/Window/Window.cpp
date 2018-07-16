@@ -6,6 +6,8 @@ namespace Strateon {
 
 Window::Window(){
 
+    setUnifiedTitleAndToolBarOnMac(true);
+
     m_EditorArea = new EditorArea();
     setCentralWidget(m_EditorArea);
 
@@ -15,10 +17,12 @@ Window::Window(){
     m_MenuBar = new MenuBar();
     setMenuBar(m_MenuBar);
 
+
     m_ToolBar = new ToolBar();
     addToolBar(m_ToolBar);
 
     }
+
 }
 
 

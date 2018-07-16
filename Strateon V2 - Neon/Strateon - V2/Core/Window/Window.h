@@ -4,9 +4,11 @@
 #include <QApplication>
 #include <QtWidgets>
 #include "../EditorsArea/EditorArea.h"
-#include "../ToolBar/ToolBar.h"
-#include "../StatusBar/StatusBar.h"
-#include "../MenuBar/MenuBar.h"
+#include "../Bar/ToolBar/ToolBar.h"
+#include "../Bar/StatusBar/StatusBar.h"
+#include "../Bar/MenuBar/MenuBar.h"
+#include "../Bar/TabBar/TabBar.h"
+
 
 namespace Strateon {
 
@@ -21,6 +23,7 @@ private:
     StatusBar *m_StatusBar;
     EditorArea *m_EditorArea;
     MenuBar *m_MenuBar;
+    TabBar *m_TabBar;
     ToolBar *m_ToolBar;
     };
 }
