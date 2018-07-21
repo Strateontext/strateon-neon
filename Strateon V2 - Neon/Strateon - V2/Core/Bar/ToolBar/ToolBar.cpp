@@ -4,7 +4,7 @@
 
 namespace Strateon {
 
-ToolBar::ToolBar(){
+ToolBar::ToolBar(QWidget *parent) : QToolBar(parent){
 
     //button = new QPushButton;
     //addWidget(ToolBar::button);

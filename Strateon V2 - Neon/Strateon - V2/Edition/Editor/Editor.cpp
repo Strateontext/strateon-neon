@@ -4,12 +4,12 @@
 
 namespace Strateon {
 
-Editor::Editor(){
+Editor::Editor(QWidget *parent) : QWidget(parent){
 
-    m_Editor = new QTextEdit();
+    m_Editor = new QTextEdit(this);
     //m_LineNumber = new QTableWidget();
 
-    m_EditorLayout = new QHBoxLayout();
+    m_EditorLayout = new QHBoxLayout(this);
     m_EditorLayout->addWidget(m_Editor);
     //m_EditorLayout->addWidget(m_LineNumber);
     setLayout(m_EditorLayout);

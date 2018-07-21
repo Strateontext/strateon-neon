@@ -9,7 +9,7 @@ namespace Strateon {
 class ToolBar: public QToolBar {
 
 public:
-        ToolBar();
+        ToolBar(QWidget *parent);
 
 private:
         QPushButton * button;

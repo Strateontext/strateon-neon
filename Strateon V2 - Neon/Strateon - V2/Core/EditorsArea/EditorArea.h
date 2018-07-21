@@ -10,7 +10,7 @@ namespace Strateon {
 class EditorArea: public QMdiArea {
 
 public:
-        EditorArea();
+        EditorArea(QWidget *parent);
 
 private:
         Editor *m_textzone;

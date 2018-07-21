@@ -7,11 +7,16 @@ namespace Strateon {
 
 Application::Application(int argc, char** argv) : QApplication(argc, argv){
 
-    m_windows = new Window();
-    m_windows->show();
+    m_window = new Window();
+    m_window->show();
 
     }
+Application::~Application(){
+
+    delete m_window;
+
 }
+
 
 QString readFile(const QString& filename)
 {
@@ -27,4 +32,5 @@ QString readFile(const QString& filename)
 
     return QString();
 
+    }
 }

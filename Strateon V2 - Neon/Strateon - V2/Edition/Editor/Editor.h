@@ -9,7 +9,7 @@ namespace Strateon {
 class Editor : public QWidget{
 
 public:
-    Editor();
+    Editor(QWidget *parent);
 
 
 private:

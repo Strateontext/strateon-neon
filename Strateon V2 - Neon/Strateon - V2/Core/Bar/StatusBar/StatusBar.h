@@ -9,7 +9,7 @@ namespace Strateon {
 class StatusBar: public QStatusBar {
 
 public:
-        StatusBar();
+        StatusBar(QWidget *parent);
 
 private:
 

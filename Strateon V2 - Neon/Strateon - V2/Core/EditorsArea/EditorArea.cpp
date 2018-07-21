@@ -4,10 +4,10 @@
 
 namespace Strateon {
 
-EditorArea::EditorArea(){
+EditorArea::EditorArea(QWidget *parent) : QMdiArea(parent){
 
     setBackground(QColor(49,51,52));
-    m_textzone = new Editor();
+    m_textzone = new Editor(this);
     addSubWindow(m_textzone);
 
     }

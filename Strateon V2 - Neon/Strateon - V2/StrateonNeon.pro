@@ -9,7 +9,6 @@ SOURCES += \
     Core/Bar/StatusBar/StatusBar.cpp\
     Core/Bar/ToolBar/ToolBar.cpp\
     Core/Window/Window.cpp\
-    Core/Bar/TabBar/TabBar.cpp \
     Core/Widgets/TabWidgets/TabWidgets.cpp\
     Edition/Editor/Editor.cpp\
 
@@ -20,7 +19,6 @@ HEADERS += \
     Core/Bar/StatusBar/StatusBar.h\
     Core/Bar/ToolBar/ToolBar.h\
     Core/Window/Window.h\
-    Core/Bar/TabBar/TabBar.h \
     Core/Widgets/TabWidgets/TabWidgets.h\
     Edition/Editor/Editor.h\
 

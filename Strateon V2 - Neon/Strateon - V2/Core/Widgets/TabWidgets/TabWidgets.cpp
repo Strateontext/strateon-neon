@@ -4,7 +4,7 @@
 
 namespace Strateon {
 
-TabWidgets::TabWidgets(){
+TabWidgets::TabWidgets(QWidget *parent) : QWidget(parent){
 
 
 

@@ -4,25 +4,23 @@
 
 namespace Strateon {
 
-Window::Window(){
+Window::Window() : QMainWindow(){
 
     setUnifiedTitleAndToolBarOnMac(true);
 
-    m_EditorArea = new EditorArea();
+    m_EditorArea = new EditorArea(this);
     setCentralWidget(m_EditorArea);
 
-    m_StatusBar = new StatusBar();
+    m_StatusBar = new StatusBar(this);
     setStatusBar(m_StatusBar);
 
-    m_MenuBar = new MenuBar();
+    m_MenuBar = new MenuBar(this);
     setMenuBar(m_MenuBar);
 
-
-    m_ToolBar = new ToolBar();
+    m_ToolBar = new ToolBar(this);
     addToolBar(m_ToolBar);
 
     }
-
 }
 
 

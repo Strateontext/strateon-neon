@@ -11,9 +11,10 @@ class Application: public QApplication {
 
 public:
     Application(int argc, char** argv);
+    ~Application();
 
 private:
-    Window *m_windows;
+    Window *m_window;
 
     };
 }

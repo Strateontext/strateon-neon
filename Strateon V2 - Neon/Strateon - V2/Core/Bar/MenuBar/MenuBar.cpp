@@ -4,7 +4,7 @@
 
 namespace Strateon {
 
-MenuBar::MenuBar(){
+MenuBar::MenuBar(QWidget *parent) : QMenuBar(parent) {
 
     m_menuEdit = addMenu("Edit");
         m_menuEdit->addAction("Size");
