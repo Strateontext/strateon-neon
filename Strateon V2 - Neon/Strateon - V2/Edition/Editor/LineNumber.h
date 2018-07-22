@@ -9,7 +9,7 @@ namespace Strateon {
 class TableWidget : public QTableWidget{
 
 public:
-    TableWidget(QWidget *parent);
+    TableWidget();
 
 private:
 

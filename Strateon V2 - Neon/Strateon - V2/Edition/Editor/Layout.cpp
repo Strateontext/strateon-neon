@@ -9,10 +9,10 @@ namespace Strateon {
 
 Layout::Layout(QWidget *parent) : QHBoxLayout(parent){
 
-    m_Editor = new TextEdit(this);
-    m_LineNumber = new TableWidget(this);
-    addWidget(m_Editor);
+    m_LineNumber = new TableWidget();
+    m_Editor = new TextEdit();
     addWidget(m_LineNumber);
+    addWidget(m_Editor);
     setContentsMargins(0, 0, 0, 0);
     setSpacing(1);
 

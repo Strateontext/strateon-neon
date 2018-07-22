@@ -4,7 +4,7 @@
 
 namespace Strateon {
 
-TextEdit::TextEdit(QWidget *parent) : QTextEdit(parent){
+TextEdit::TextEdit() : QTextEdit(){
     setStyleSheet("background: white; border: hidden;");
 
     }

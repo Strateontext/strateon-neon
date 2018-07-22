@@ -9,7 +9,7 @@ namespace Strateon {
 class TextEdit : public QTextEdit{
 
 public:
-    TextEdit(QWidget *parent);
+    TextEdit();
 
 private:
 

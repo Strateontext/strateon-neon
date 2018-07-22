@@ -4,7 +4,7 @@
 
 namespace Strateon {
 
-TableWidget::TableWidget(QWidget *parent) : QTableWidget(parent){
+TableWidget::TableWidget() : QTableWidget(){
 
     setFixedWidth(40);
     setStyleSheet("background: white; border: hidden;");
