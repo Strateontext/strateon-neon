@@ -11,6 +11,9 @@ SOURCES += \
     Core/Window/Window.cpp\
     Core/Widgets/TabWidgets/TabWidgets.cpp\
     Edition/Editor/Editor.cpp\
+    Edition/Editor/TextEdit.cpp \
+    Edition/Editor/LineNumber.cpp \
+    Edition/Editor/Layout.cpp
 
 HEADERS += \
     Core/Application/Application.h\
@@ -21,7 +24,9 @@ HEADERS += \
     Core/Window/Window.h\
     Core/Widgets/TabWidgets/TabWidgets.h\
     Edition/Editor/Editor.h\
-
+    Edition/Editor/TextEdit.h \
+    Edition/Editor/LineNumber.h \
+    Edition/Editor/Layout.h
 
 FORMS +=
 
