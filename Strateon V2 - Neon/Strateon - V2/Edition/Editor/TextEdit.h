@@ -6,7 +6,7 @@
 
 namespace Strateon {
 
-class TextEdit : public QTextEdit{
+class TextEdit : public QPlainTextEdit{
 
 public:
     TextEdit();

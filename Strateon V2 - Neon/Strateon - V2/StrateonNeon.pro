@@ -1,5 +1,5 @@
 QT += widgets
-QT += gui
+
 
 SOURCES += \
     Main.cpp\
