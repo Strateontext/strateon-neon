@@ -18,6 +18,12 @@ Layout::Layout(QWidget *parent) : QHBoxLayout(parent){
 
     }
 
+Layout::~Layout(){
+
+    delete m_LineNumber;
+    delete m_Editor;
+
+    }
 }
 
 

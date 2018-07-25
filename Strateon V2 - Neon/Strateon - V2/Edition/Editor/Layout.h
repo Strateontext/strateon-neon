@@ -12,6 +12,7 @@ class Layout : public QHBoxLayout{
 
 public:
     Layout(QWidget *parent);
+    ~Layout();
 
 private:
 

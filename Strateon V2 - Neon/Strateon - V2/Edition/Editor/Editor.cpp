@@ -13,6 +13,7 @@ Editor::Editor(QWidget *parent) : QWidget(parent){
 
     }
 
+
 }
 
 
