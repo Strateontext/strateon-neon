@@ -7,8 +7,10 @@ namespace Strateon {
 EditorArea::EditorArea(QWidget *parent) : QMdiArea(parent){
 
     setBackground(QColor(49,51,52));
-    m_textzone = new Editor(this);
-    addSubWindow(m_textzone)->move(50,50);
+    m_TextZone = new Editor(this);
+    addSubWindow(m_TextZone)->move(50,50);
+    m_WebRender = new WebRender(this);
+    addSubWindow(m_WebRender)->move(100,100);
 
 
     }
