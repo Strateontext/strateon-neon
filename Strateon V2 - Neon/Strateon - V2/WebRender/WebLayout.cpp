@@ -5,14 +5,13 @@
 
 namespace Strateon {
 
-WebLayout::WebLayout(QWidget *parent) : QHBoxLayout(parent){
+WebLayout::WebLayout() : QHBoxLayout(){
 
     m_WebEngine = new WebEngine();
     addWidget(m_WebEngine);
-    setContentsMargins(0, 0, 0, 0);
+    //setContentsMargins(0, 0, 0, 0);
 
     }
-
 WebLayout::~WebLayout(){
 
     delete m_WebEngine;

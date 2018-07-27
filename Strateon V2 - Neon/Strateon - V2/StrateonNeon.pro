@@ -13,10 +13,8 @@ SOURCES += \
     Edition/Editor/Editor.cpp\
     Edition/Editor/TextEdit.cpp \
     Edition/Editor/LineNumber.cpp \
-    Edition/Editor/Layout.cpp \
     WebRender/WebRender.cpp \
-    WebRender/WebEngine.cpp \
-    WebRender/WebLayout.cpp
+    WebRender/WebEngine.cpp
 
 HEADERS += \
     Core/Application/Application.h\
@@ -29,10 +27,8 @@ HEADERS += \
     Edition/Editor/Editor.h\
     Edition/Editor/TextEdit.h \
     Edition/Editor/LineNumber.h \
-    Edition/Editor/Layout.h \
     WebRender/WebRender.h \
-    WebRender/WebEngine.h \
-    WebRender/WebLayout.h
+    WebRender/WebEngine.h
 
 FORMS +=
 

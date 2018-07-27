@@ -12,7 +12,7 @@ public:
         ToolBar(QWidget *parent);
 
 private:
-        QPushButton * button;
+        //QPushButton * button;
 
 signals:
 

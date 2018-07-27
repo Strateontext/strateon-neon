@@ -10,11 +10,13 @@ namespace Strateon {
 class WebRender : public QWidget{
 
 public:
-    WebRender(QWidget *parent);
+    WebRender();
+    ~WebRender();
 
 private:
 
-    WebLayout *m_WebRenderLayout;
+    QHBoxLayout *m_WebRenderLayout;
+    WebEngine *m_WebEngine;
 
     };
 }

@@ -7,6 +7,7 @@ namespace Strateon {
 
 WebEngine::WebEngine() : QWebEngineView(){
 
+    load(QUrl("https://www.google.com/"));
     }
 
 }

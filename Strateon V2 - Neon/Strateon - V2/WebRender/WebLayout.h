@@ -10,10 +10,10 @@ namespace Strateon {
 class WebLayout : public QHBoxLayout{
 
 public:
-    WebLayout(QWidget *parent);
-    ~WebLayout();
+    WebLayout();
 
-private:
+
+private: 
 
     WebEngine *m_WebEngine;
 
