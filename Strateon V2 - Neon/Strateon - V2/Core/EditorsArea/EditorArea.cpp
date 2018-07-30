@@ -10,6 +10,7 @@ EditorArea::EditorArea(QWidget *parent) : QMdiArea(parent){
     m_TextZone = new Editor(this);
     addSubWindow(m_TextZone)->move(50,50);
     m_WebRender = new WebRender();
+    m_WebRender->setMinimumSize(400,400);
     addSubWindow(m_WebRender)->move(800,50);
 
 

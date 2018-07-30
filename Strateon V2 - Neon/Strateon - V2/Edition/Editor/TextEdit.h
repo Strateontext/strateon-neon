@@ -6,10 +6,13 @@
 
 namespace Strateon {
 
+
+
 class TextEdit : public QPlainTextEdit{
 
 public:
     TextEdit();
+    void SetStyleSheetOpacity(int);
 
 private:
 

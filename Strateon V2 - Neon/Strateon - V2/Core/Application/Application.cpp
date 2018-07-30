@@ -2,6 +2,7 @@
 #include <QtWidgets>
 #include "Application.h"
 #include "../Window/Window.h"
+#include "../../FileSystem/filesystem.h"
 
 namespace Strateon {
 
@@ -10,7 +11,10 @@ Application::Application(int argc, char** argv) : QApplication(argc, argv){
     m_window = new Window();
     m_window->show();
 
+
+
     }
+
 Application::~Application(){
 
     delete m_window;
@@ -32,5 +36,7 @@ QString readFile(const QString& filename)
 
     return QString();
 
-    }
+}
+
+
 }

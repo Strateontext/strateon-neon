@@ -7,10 +7,12 @@
 
 namespace Strateon {
 
+
+
 class WebEngine : public QWebEngineView{
 
 public:
-    WebEngine();
+    WebEngine(QWidget *parent);
 
 private:
 

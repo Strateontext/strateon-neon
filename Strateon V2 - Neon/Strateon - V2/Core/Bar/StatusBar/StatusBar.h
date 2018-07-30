@@ -6,12 +6,16 @@
 
 namespace Strateon {
 
+
+
 class StatusBar: public QStatusBar {
 
 public:
         StatusBar(QWidget *parent);
 
 private:
+
+        QSlider *m_Opacity;
 
 signals:
 

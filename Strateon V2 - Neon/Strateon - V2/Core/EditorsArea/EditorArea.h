@@ -8,14 +8,16 @@
 
 namespace Strateon {
 
+
+
 class EditorArea: public QMdiArea {
 
 public:
         EditorArea(QWidget *parent);
-
-private:
         Editor *m_TextZone;
         WebRender *m_WebRender;
+
+private:
 
 signals:
 

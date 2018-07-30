@@ -6,6 +6,8 @@
 
 namespace Strateon {
 
+
+
 class TabWidgets: public QWidget {
 
 public:

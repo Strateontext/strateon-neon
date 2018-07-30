@@ -6,6 +6,8 @@
 
 namespace Strateon {
 
+
+
 class MenuBar: public QMenuBar {
 
 public:

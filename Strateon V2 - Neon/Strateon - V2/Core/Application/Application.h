@@ -7,11 +7,13 @@
 
 namespace Strateon {
 
+
+
 class Application: public QApplication {
 
 public:
     Application(int argc, char** argv);
-    ~Application();
+    ~Application();   
 
 private:
     Window *m_window;

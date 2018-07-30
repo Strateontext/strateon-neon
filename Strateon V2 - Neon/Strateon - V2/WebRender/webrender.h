@@ -3,9 +3,13 @@
 
 #include <QApplication>
 #include <QtWidgets>
-#include "WebLayout.h"
+#include "UrlInput.h"
+#include "BrowserToolBar.h"
+#include "webengine.h"
 
 namespace Strateon {
+
+
 
 class WebRender : public QWidget{
 
@@ -15,7 +19,8 @@ public:
 
 private:
 
-    QHBoxLayout *m_WebRenderLayout;
+    BrowserToolBar *m_BrowserToolBar;
+    QVBoxLayout *m_WebRenderLayout;
     WebEngine *m_WebEngine;
 
     };

@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/background">
+    <qresource prefix="/file">
         <file alias="background">Backgrounds/background.png</file>
     </qresource>
     <qresource prefix="/style">
@@ -22,5 +22,7 @@
         <file>Icons/underline.png</file>
         <file>Icons/urlopen.png</file>
         <file>Icons/quit.png</file>
+        <file>Icons/file.png</file>
+        <file>Icons/directory.png</file>
     </qresource>
 </RCC>

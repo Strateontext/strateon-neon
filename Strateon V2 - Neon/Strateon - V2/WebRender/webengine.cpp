@@ -2,12 +2,16 @@
 #include <QtWidgets>
 #include "WebEngine.h"
 #include <QWebEngineView>
+#include "BrowserToolBar.h"
 
 namespace Strateon {
 
-WebEngine::WebEngine() : QWebEngineView(){
+WebEngine::WebEngine(QWidget *parent) : QWebEngineView(parent){
 
-    load(QUrl("https://www.google.com/"));
+
+    setStyleSheet("border-radius: 5px;");
+    load(QUrl("https://github.com/"));
+
     }
 
 }

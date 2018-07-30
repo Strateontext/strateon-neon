@@ -3,7 +3,8 @@
 #include "Editor.h"
 #include "TextEdit.h"
 #include "LineNumber.h"
-
+#include "../../Core/Bar/StatusBar/StatusBar.h"
+#include "../../Core/EditorsArea/EditorArea.h"
 
 namespace Strateon {
 
@@ -20,6 +21,8 @@ Editor::Editor(QWidget *parent) : QWidget(parent){
 
     setLayout(m_EditorLayout);
 
+
+
     }
 Editor::~Editor(){
 
@@ -27,6 +30,9 @@ Editor::~Editor(){
     delete m_Editor;
 
     }
+
+
+
 }
 
 
