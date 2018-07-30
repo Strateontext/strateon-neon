@@ -11,7 +11,7 @@ namespace Strateon {
 class MenuBar: public QMenuBar {
 
 public:
-        MenuBar(QWidget *parent);
+    MenuBar(QWidget *parent);
 
 private:
     QMenu* m_menuEdit{};

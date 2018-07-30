@@ -7,11 +7,16 @@ namespace Strateon {
 
 StatusBar::StatusBar(QWidget *parent) : QStatusBar(parent){
 
-    showMessage(tr("Ready"));
     setStyleSheet("background-color: rgb(49,51,52); color: rgb(196,196,196);");
     m_Opacity = new QSlider(Qt::Horizontal);
-    //connect(m_Opacity, &QAbstractSlider::valueChanged, this, &Editor::setWindowOpacity);
     addWidget(m_Opacity);
     m_Opacity->show();
+
+    connect(m_Opacity, &QSlider::valueChanged, this, &StatusBar::OpacityChangeSlot);
+    }
+
+void StatusBar::OpacityChangeSlot(int value){
+
+    emit SignalOpacityChanged(value);
     }
 }

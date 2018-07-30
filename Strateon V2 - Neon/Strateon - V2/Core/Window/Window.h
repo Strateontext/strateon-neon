@@ -13,12 +13,13 @@
 namespace Strateon {
 
 
-
 class Window : public QMainWindow{
+
+Q_OBJECT
 
 public:
     Window();
-    void NewSubwindow();
+    /*void NewSubwindow();
     void SavingFile();
     void OpenFile();
     void PrintFile();
@@ -28,8 +29,10 @@ public:
     void SetColor();
     void SetUnderline();
     void SetItalic();
-    void SetSize(int);
+    void SetSize(int);*/
 
+public slots:
+    void setEditorAreaOpacity(int);
 
 
 private:

@@ -17,7 +17,8 @@ SOURCES += \
     WebRender/WebEngine.cpp \
     WebRender/UrlInput.cpp \
     WebRender/BrowserToolBar.cpp \
-    FileSystem/filesystem.cpp
+    FileSystem/filesystem.cpp \
+    Edition/Editor/buttonsclass.cpp
 
 HEADERS += \
     Core/Application/Application.h\
@@ -34,7 +35,8 @@ HEADERS += \
     WebRender/WebEngine.h \
     WebRender/UrlInput.h \
     WebRender/BrowserToolBar.h \
-    FileSystem/filesystem.h
+    FileSystem/filesystem.h \
+    Edition/Editor/buttonsclass.h
 
 FORMS +=
 

@@ -16,7 +16,6 @@ public:
 private:
         QPushButton * button;
 
-signals:
 
     };
 }

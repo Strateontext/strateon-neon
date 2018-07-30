@@ -15,4 +15,10 @@ EditorArea::EditorArea(QWidget *parent) : QMdiArea(parent){
 
 
     }
+
+void EditorArea::setEditorOpacity(int value){
+
+    m_TextZone->setWindowOpacity(value);
+    }
+
 }

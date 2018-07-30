@@ -28,6 +28,11 @@ Window::Window() : QMainWindow(){
     m_Dock->setStyleSheet("background: rgb(49,51,52); color: white;");
     addDockWidget(Qt::LeftDockWidgetArea, m_Dock);
 
+    connect(m_StatusBar, &StatusBar::SignalOpacityChanged, this, &Window::setEditorAreaOpacity);
+    }
+
+void Window::setEditorAreaOpacity(int value){
+    m_EditorArea->setEditorOpacity(value);
 
     }
 
